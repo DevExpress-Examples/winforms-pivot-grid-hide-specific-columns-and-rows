@@ -31,8 +31,8 @@ namespace XtraPivotGrid_HidingColumnsAndRows {
             // 
             // radioGroup1
             // 
-            this.radioGroup1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.radioGroup1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.radioGroup1.Location = new System.Drawing.Point(13, 12);
             this.radioGroup1.Name = "radioGroup1";
             this.radioGroup1.Properties.Columns = 1;
@@ -45,13 +45,14 @@ namespace XtraPivotGrid_HidingColumnsAndRows {
             // 
             // pivotGridControl1
             // 
-            this.pivotGridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.pivotGridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pivotGridControl1.Location = new System.Drawing.Point(13, 66);
             this.pivotGridControl1.Name = "pivotGridControl1";
             this.pivotGridControl1.OptionsCustomization.AllowDrag = false;
             this.pivotGridControl1.OptionsCustomization.AllowFilter = false;
+            this.pivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Optimized;
             this.pivotGridControl1.Size = new System.Drawing.Size(919, 320);
             this.pivotGridControl1.TabIndex = 0;
             this.pivotGridControl1.FieldValueDisplayText += new DevExpress.XtraPivotGrid.PivotFieldDisplayTextEventHandler(this.pivotGridControl1_FieldValueDisplayText);

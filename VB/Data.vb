@@ -22,13 +22,13 @@ Namespace XtraPivotGrid_HidingColumnsAndRows
         Public Const WidgetC As String = "Widget C"
 
         Public Shared Sub FillPivot(ByVal pivot As PivotGridControl)
-            pivot.Fields.Add(Employee, PivotArea.RowArea)
-            pivot.Fields.Add(Widget, PivotArea.RowArea)
-            pivot.Fields.Add(Month, PivotArea.ColumnArea).AreaIndex = 0
-            pivot.Fields.Add(RetailPrice, PivotArea.DataArea)
-            pivot.Fields.Add(WholesalePrice, PivotArea.DataArea)
-            pivot.Fields.Add(Quantity, PivotArea.DataArea)
-            pivot.Fields.Add(Remains, PivotArea.DataArea)
+            pivot.Fields.AddDataSourceColumn(Employee, PivotArea.RowArea)
+            pivot.Fields.AddDataSourceColumn(Widget, PivotArea.RowArea)
+            pivot.Fields.AddDataSourceColumn(Month, PivotArea.ColumnArea).AreaIndex = 0
+            pivot.Fields.AddDataSourceColumn(RetailPrice, PivotArea.DataArea)
+            pivot.Fields.AddDataSourceColumn(WholesalePrice, PivotArea.DataArea)
+            pivot.Fields.AddDataSourceColumn(Quantity, PivotArea.DataArea)
+            pivot.Fields.AddDataSourceColumn(Remains, PivotArea.DataArea)
             For Each field As PivotGridField In pivot.Fields
                 field.AllowedAreas = GetAllowedArea(field.Area)
             Next field
