@@ -41,8 +41,7 @@ namespace XtraPivotGrid_HidingColumnsAndRows {
         void pivotGridControl1_FieldValueDisplayText(object sender, 
                                     PivotFieldDisplayTextEventArgs e) {
             PivotGridControl pivot = sender as PivotGridControl;
-            if (e.Field == pivot.Fields[PivotHelper.Month])
-            {
+            if (e.Field == pivot.Fields[PivotHelper.Month]) {
                 e.DisplayText = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName((int)e.Value);
             }
         }
