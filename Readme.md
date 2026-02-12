@@ -21,7 +21,7 @@ The following example demonstrates how handle the [CustomFieldValueCells](https:
 
 - [Pivot Grid for WinForms - How to Hide Empty Field Values (Columns/Rows)](https://github.com/DevExpress-Examples/how-to-hide-empty-field-values-columns-rows-e2807)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivot-grid-hide-specific-columns-and-rows&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-pivot-grid-hide-specific-columns-and-rows&~~~was_helpful=no)
 
